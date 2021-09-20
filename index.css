@@ -15,6 +15,7 @@ h4 {
 .top {
     display: flex;
     text-align: center;
+    flex-direction: column;
 }
 
 .main {
