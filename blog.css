@@ -1,0 +1,50 @@
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url('https://wallpapermemory.com/uploads/790/one-piece-background-hd-1600x900-314367.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex; 
+    justify-content: center;
+    border-style: inset;
+    border-width: 6px;
+    border-color: red;
+    align-items: center;
+    background-image: url('https://www.colorhexa.com/e9e0d7.png');
+}
+
+.par {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    max-width: 540px;
+}
+
+p {
+    text-align: center;
+    word-wrap: break-word;
+}
