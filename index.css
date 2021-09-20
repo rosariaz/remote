@@ -6,11 +6,6 @@ img {
 h4 {
     text-align: center;
 }
-
-div {
-    text-align: center;
-}
-
 .container {
     display: flex;
     align-items: center;
@@ -19,6 +14,7 @@ div {
 
 .top {
     display: flex;
+    text-align: center;
 }
 
 .main {
