@@ -105,6 +105,18 @@ p {
     }
 }
 
+@keyframes exaggerate-loadup {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .pirate-button {
 	box-shadow: 3px 4px 0px 0px #8a2a21;
 	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
@@ -116,6 +128,12 @@ p {
     font-weight: bolder;
     width:250px;
     height:100px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
 }
 .pirate-button:hover {
 	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);

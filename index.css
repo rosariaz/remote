@@ -20,10 +20,11 @@ h4 {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    border-style: inset;
-    border-width: 6px;
-    border-color: red;
-    background-image: url('https://www.colorhexa.com/e9e0d7.png');
+    border-style: solid;
+    border-width: 8px;
+    border-color: #494848;
+    background-image: url('https://i.pinimg.com/originals/c7/5d/a3/c75da36273bf86aefd32ccb886f00e82.png');
+    background-size: cover;
 }
 
 .main-container {
@@ -37,8 +38,9 @@ h4 {
     flex-direction: column;
     text-align: left;
     margin-left: 100px;
-    border-style: inset;
-    border-width: 6px;
-    border-color: red;
-    background-image: url('https://www.colorhexa.com/e9e0d7.png');
+    border-style: solid;
+    border-width: 8px;
+    border-color: #494848;
+    background-image: url('https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg');
+    background-size: cover;
 }
