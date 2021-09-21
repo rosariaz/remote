@@ -5,7 +5,7 @@ html {
 
 .parallax {
     background-image: url('https://wallpapermemory.com/uploads/790/one-piece-background-hd-1600x900-314367.jpg');
-    height: 175%;
+    height: 150%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ html {
 
 .section {
     display: flex; 
-    justify-content: center;
+    justify-content: space-evenly;
     border-style: inset;
     border-width: 6px;
     border-color: red;
@@ -42,9 +42,99 @@ html {
     align-items: center;
     padding: 0px 50px 0px 50px;
     max-width: 540px;
+    animation: text-loadup 1s;
+}
+
+.vid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: vid-loadup 1s;
 }
 
 p {
     text-align: center;
     word-wrap: break-word;
 }
+
+@keyframes text-loadup {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes vid-loadup {
+    from {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes head-loadup {
+    from {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes footer-loadup {
+    from {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.pirate-button {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	font-family:'fantasy', 'papyrus';
+    font-size: 20px;
+    font-weight: bolder;
+    width:250px;
+    height:100px;
+}
+.pirate-button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+    animation: pulse 1.5s infinite;
+}
+.pirate-button:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(1.5);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
